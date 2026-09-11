@@ -16,7 +16,7 @@ export default function Home(){const [media]=useMedia();const [news]=useNews();c
         <span className="eyebrow">A SPECIAL DAY AT MAA GANGA</span>
         <h2>Warm birthday wishes to our Director</h2>
         <p>With heartfelt wishes for good health, happiness and continued success.</p>
-        <strong>Director Dr.Saraj Harish Baheti</strong>
+        <strong>Director Dr.Saraj Baheti</strong>
         <span className="birthdayWish">Happy Birthday!</span>
       </div>
       <div className="birthdayPortrait"><img src={IMG+'crop Director Dr.Saraj Baheti.JPG'} alt="Director Dr.Saraj Baheti"/></div>
