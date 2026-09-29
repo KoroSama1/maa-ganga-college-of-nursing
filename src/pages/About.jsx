@@ -72,19 +72,31 @@ export default function About() {
               development of students and the communities they serve.
             </p>
 
-            <img
-              src="/assets/images/about-1.JPG"
-              alt="Maa Ganga College of Nursing memorial statue"
+            {/* STATUE IMAGE */}
+            <div
               style={{
                 width: "100%",
-                height: "300px",
-                objectFit: "cover",
-                objectPosition: "center",
-                display: "block",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 marginTop: "24px",
-                borderRadius: "4px",
+                marginBottom: "18px",
               }}
-            />
+            >
+              <img
+                src="/assets/images/about-1.JPG"
+                alt="Maa Ganga College of Nursing memorial statue"
+                style={{
+                  width: "100%",
+                  maxWidth: "300px",
+                  height: "300px",
+                  objectFit: "contain",
+                  objectPosition: "center",
+                  display: "block",
+                  borderRadius: "4px",
+                }}
+              />
+            </div>
 
             <Link to="/about/vision" className="underLink">
               Vision & Mission <ArrowRight size={16} />
@@ -101,12 +113,14 @@ export default function About() {
             title="A dedicated environment for nursing education"
           />
 
+          {/* FULL BUILDING IMAGE */}
           <div
             style={{
               width: "100%",
+              maxWidth: "1000px",
+              margin: "32px auto 0",
               overflow: "hidden",
               borderRadius: "6px",
-              marginTop: "32px",
             }}
           >
             <img
@@ -114,8 +128,9 @@ export default function About() {
               alt="Maa Ganga College of Nursing building"
               style={{
                 width: "100%",
-                height: "460px",
-                objectFit: "cover",
+                height: "auto",
+                aspectRatio: "3 / 2",
+                objectFit: "contain",
                 objectPosition: "center",
                 display: "block",
               }}
