@@ -101,33 +101,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <section className="birthdaySection">
-        <div className="container">
-          <div className="birthdayCard">
-            <div className="birthdayDate">
-              <span>12</span>
-              <small>SEPTEMBER</small>
-              <i>2026</i>
-            </div>
-            <div className="birthdayContent">
-              <span className="eyebrow">A SPECIAL DAY AT MAA GANGA</span>
-              <h2>Warm birthday wishes to our Director</h2>
-              <p>
-                With heartfelt wishes for good health, happiness and continued
-                success.
-              </p>
-              <strong>Director Dr.Saraj Baheti</strong>
-              <span className="birthdayWish">Happy Birthday!</span>
-            </div>
-            <div className="birthdayPortrait">
-              <img
-                src={IMG + "crop Director Dr.Saraj Baheti.JPG"}
-                alt="Director Dr.Saraj Baheti"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="section introSection">
         <div className="container introGrid">
           <div className="introVisual">
