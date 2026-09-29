@@ -105,6 +105,130 @@ export default function About() {
         </div>
       </section>
 
+      {/* OUR LEADERSHIP */}
+      <section className="section softSection">
+        <div className="container">
+          <SectionTitle
+            eyebrow="OUR LEADERSHIP"
+            title="Leadership with a commitment to education and service"
+          />
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+              gap: "24px",
+              maxWidth: "820px",
+              margin: "28px auto 0",
+            }}
+          >
+            {/* DIRECTOR */}
+            <div
+              style={{
+                background: "#fff",
+                borderRadius: "6px",
+                overflow: "hidden",
+                textAlign: "center",
+                boxShadow: "0 8px 30px rgba(0, 0, 0, 0.06)",
+              }}
+            >
+              <div
+                style={{
+                  width: "100%",
+                  aspectRatio: "4 / 4.5",
+                  overflow: "hidden",
+                  background: "#f4f4f4",
+                }}
+              >
+                <img
+                  src="/assets/images/director-saraj-baheti.JPG"
+                  alt="Dr. Saraj Baheti"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center top",
+                    display: "block",
+                  }}
+                />
+              </div>
+
+              <div style={{ padding: "14px 20px 16px" }}>
+                <h3
+                  style={{
+                    margin: "0 0 7px",
+                    fontSize: "1.25rem",
+                  }}
+                >
+                  Dr. Saraj Baheti
+                </h3>
+
+                <span
+                  className="eyebrow"
+                  style={{
+                    display: "block",
+                  }}
+                >
+                  DIRECTOR
+                </span>
+              </div>
+            </div>
+
+            {/* PRESIDENT */}
+            <div
+              style={{
+                background: "#fff",
+                borderRadius: "6px",
+                overflow: "hidden",
+                textAlign: "center",
+                boxShadow: "0 8px 30px rgba(0, 0, 0, 0.06)",
+              }}
+            >
+              <div
+                style={{
+                  width: "100%",
+                  aspectRatio: "4 / 4.5",
+                  overflow: "hidden",
+                  background: "#f4f4f4",
+                }}
+              >
+                <img
+                  src="/assets/images/president-harish-baheti.JPG"
+                  alt="Dr. Harish Baheti"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center top",
+                    display: "block",
+                  }}
+                />
+              </div>
+
+              <div style={{ padding: "14px 20px 16px" }}>
+                <h3
+                  style={{
+                    margin: "0 0 7px",
+                    fontSize: "1.25rem",
+                  }}
+                >
+                  Dr. Harish Baheti
+                </h3>
+
+                <span
+                  className="eyebrow"
+                  style={{
+                    display: "block",
+                  }}
+                >
+                  PRESIDENT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* COLLEGE BUILDING */}
       <section className="section softSection">
         <div className="container">
