@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,15 +36,14 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Faculty() {
-  const [faculty] = useFaculty();
+  const faculty = seedFaculty;
   return (
     <>
       <PageHero
         eyebrow="PEOPLE"
         title="Teaching Staff"
-        text="Faculty profiles can be maintained through the Admin demo."
+        text="Meet the teaching staff of Maa Ganga College of Nursing."
       />
       <section className="section">
         <div className="container facultyGridNew">
@@ -56,7 +54,7 @@ export default function Faculty() {
               ) : (
                 <div className="facultyPlaceholder">
                   <Users size={38} />
-                  <span>Photo can be added by Admin</span>
+                  <span>Faculty profile</span>
                 </div>
               )}
               <div>

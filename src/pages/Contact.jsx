@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,7 +36,7 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
+
 export default function Contact() {
   return (
     <>
@@ -47,6 +46,7 @@ export default function Contact() {
         text="Reach Maa Ganga College of Nursing, Washim."
         image="campus-1.jpg"
       />
+
       <section className="section">
         <div className="container contactGridNew">
           <div className="contactInfo">
@@ -62,6 +62,7 @@ export default function Contact() {
                 </p>
               </div>
             </div>
+
             <div className="contactItem">
               <span>
                 <Phone />
@@ -75,33 +76,33 @@ export default function Contact() {
                 </p>
               </div>
             </div>
+
             <div className="contactItem">
               <span>
                 <Mail />
               </span>
               <div>
                 <span className="eyebrow">EMAIL</span>
-                <p>
-                  Use the college's official email address here when provided by
-                  the client.
-                </p>
+                <p>maaganganursing@gmail.com</p>
               </div>
             </div>
           </div>
+
           <div className="mapPanel">
-            <div className="mapPin">
-              <MapPin size={28} />
-            </div>
-            <h3>Washim, Maharashtra</h3>
-            <p>Map integration can be connected in the production version.</p>
-            <a
-              className="underLink"
-              href="https://maps.google.com/?q=Washim,Maharashtra"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open map <ExternalLink size={15} />
-            </a>
+            <iframe
+              title="Maa Ganga College of Nursing Location"
+              src="https://www.google.com/maps?q=Maa+Ganga+College+of+Nursing,+Akola+Naka,+Washim,+Maharashtra+444505&output=embed"
+              width="100%"
+              height="100%"
+              style={{
+                border: 0,
+                display: "block",
+                minHeight: "360px",
+              }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </section>

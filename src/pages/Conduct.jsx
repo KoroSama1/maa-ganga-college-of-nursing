@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,14 +36,13 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Conduct() {
   return (
     <>
       <PageHero
         eyebrow="GOVERNANCE"
         title="Code of Conduct"
-        text="Student and staff code-of-conduct documents supplied by the client."
+        text="Guidelines and standards of conduct for students and staff."
       />
       <section className="section">
         <div className="container docGrid two">

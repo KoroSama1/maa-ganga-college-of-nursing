@@ -15,7 +15,8 @@ import Faculty from "../pages/Faculty";
 import News from "../pages/News";
 import Feedback from "../pages/Feedback";
 import Contact from "../pages/Contact";
-import Admin from "../pages/Admin";
+import Events from "../pages/events/Events";
+import EventGallery from "../pages/events/EventGallery";
 export default function AppRoutes() {
   return (
     <Routes>
@@ -30,11 +31,12 @@ export default function AppRoutes() {
       <Route path="/programs/:id" element={<Program />} />
       <Route path="/facilities" element={<Facilities />} />
       <Route path="/activities" element={<Activities />} />
+      <Route path="/events" element={<Events />} />
+      <Route path="/events/:id" element={<EventGallery />} />
       <Route path="/faculty" element={<Faculty />} />
       <Route path="/news" element={<News />} />
       <Route path="/feedback" element={<Feedback />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/admin" element={<Admin />} />
       <Route path="*" element={<Home />} />
     </Routes>
   );

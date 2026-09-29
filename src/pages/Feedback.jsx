@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,14 +36,13 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Feedback() {
   return (
     <>
       <PageHero
         eyebrow="FEEDBACK"
         title="Share your feedback"
-        text="A simple public feedback form for the demo website."
+        text="We welcome feedback from students, parents, faculty and visitors."
       />
       <section className="section">
         <div className="container formWrap">
@@ -52,9 +50,7 @@ export default function Feedback() {
             className="formCard"
             onSubmit={(e) => {
               e.preventDefault();
-              alert(
-                "Thank you. This is a demo form; production submissions will be stored through the backend.",
-              );
+              alert("Thank you for your feedback.");
             }}
           >
             <div className="formGrid">

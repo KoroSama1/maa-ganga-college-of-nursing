@@ -108,15 +108,13 @@ export default function Header() {
                 items={[
                   ["/facilities", "Facilities"],
                   ["/activities", "Activities"],
+                  ["/events", "Events & Gallery"],
                   ["/faculty", "Teaching Staff"],
                 ]}
               />
               <NavLink to="/news">News & Notices</NavLink>
               <NavLink to="/feedback">Feedback</NavLink>
               <NavLink to="/contact">Contact</NavLink>
-              <Link to="/admin" className="adminLink">
-                Admin Demo
-              </Link>
             </nav>
           </div>
         </div>

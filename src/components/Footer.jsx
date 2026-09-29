@@ -40,8 +40,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          © {new Date().getFullYear()} Maa Ganga College of Nursing · Demo
-          website
+          © {new Date().getFullYear()} Maa Ganga College of Nursing
         </div>
       </div>
     </footer>

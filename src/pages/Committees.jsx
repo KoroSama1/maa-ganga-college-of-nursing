@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,14 +36,13 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Committees() {
   return (
     <>
       <PageHero
         eyebrow="GOVERNANCE"
         title="Committees"
-        text="Committee information supplied by the institution."
+        text="Committees supporting academic, student and institutional activities."
       />
       <section className="section">
         <div className="container committeeList">

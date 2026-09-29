@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,13 +36,8 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Facilities() {
-  const [media] = useMedia();
-  const dynamic = media
-    .filter((m) => m.type === "facility")
-    .map((m) => [m.title || "Campus image", m.data, "Added from Admin demo."]);
-  const all = [...dynamic, ...facilities];
+  const all = facilities;
   return (
     <>
       <PageHero

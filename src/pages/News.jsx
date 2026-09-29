@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,9 +36,8 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function News() {
-  const [news] = useNews();
+  const news = seedNews;
   const [q, setQ] = useState("");
   const filtered = useMemo(
     () =>
@@ -70,14 +68,8 @@ export default function News() {
               <div className="sidePill">General Notice</div>
             </div>
             <div className="sideBox small">
-              <span className="eyebrow">ADMIN</span>
-              <p>
-                New notices can be added from the demo Admin portal. In
-                production these will come from the .NET API.
-              </p>
-              <Link to="/admin">
-                Open Admin <ArrowRight size={15} />
-              </Link>
+              <span className="eyebrow">COLLEGE INFORMATION</span>
+              <p>Find admissions, academic programmes, campus activities and important institutional information through the sections of this website.</p>
             </div>
           </aside>
           <div className="newsMain">

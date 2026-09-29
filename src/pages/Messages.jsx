@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,14 +36,13 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Messages() {
   return (
     <>
       <PageHero
         eyebrow="ABOUT"
         title="Messages"
-        text="Messages supplied for the President and Principal desks."
+        text="Messages from the President and Principal."
       />
       <section className="section">
         <div className="container messageGrid">

@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,19 +36,15 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Home() {
-  const [media] = useMedia();
-  const [news] = useNews();
-  const [faculty] = useFaculty();
+  const news = seedNews;
   const gallery = [
-    ...media
-      .filter((m) => m.type !== "faculty")
-      .slice(0, 3)
-      .map((m) => m.data),
     IMG + "campus-1.jpg",
     IMG + "lecture.jpg",
     IMG + "activity-3.jpg",
+    IMG + "campus-2.jpg",
+    IMG + "library.jpg",
+    IMG + "activity-1.jpg",
   ];
   return (
     <>
@@ -161,7 +156,7 @@ export default function Home() {
             <SectionTitle
               eyebrow="CAMPUS LIFE"
               title="Learning beyond the classroom"
-              text="Explore selected spaces and activities from the material supplied by the college."
+              text="Explore the campus, learning spaces and student activities."
             />
             <Link className="underLink" to="/facilities">
               View all facilities <ArrowRight size={16} />

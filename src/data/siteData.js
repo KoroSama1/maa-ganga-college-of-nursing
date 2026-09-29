@@ -366,23 +366,124 @@ export const seedFaculty = [
 export const seedNews = [
   {
     id: "n1",
-    title: "Admissions & programme information",
+    title: "Admissions Information",
     category: "Admissions",
-    date: "Update through administration",
-    body: "Admission information for the nursing programmes is available on the Programs section. The final notices and dates can be published here by the college.",
+    date: "Admissions",
+    body: "Information about B.Sc. Nursing, Post Basic B.Sc. Nursing, G.N.M. and A.N.M. programmes is available in the Programs section.",
   },
   {
     id: "n2",
-    title: "College notices and announcements",
-    category: "General Notice",
-    date: "Update through administration",
-    body: "A dedicated place for important college announcements, downloadable notices and student information.",
+    title: "College Activities",
+    category: "Campus",
+    date: "Campus",
+    body: "Explore academic, cultural and community activities through the Activities and Events sections.",
   },
   {
     id: "n3",
-    title: "Activities and campus updates",
-    category: "Campus",
-    date: "Update through administration",
-    body: "Use the news section to share academic activities, events, achievements and other campus updates.",
+    title: "Important College Information",
+    category: "General",
+    date: "College Information",
+    body: "Approvals, affiliations, committees, code of conduct, prospectus and other institutional documents are available on this website.",
   },
 ];
+
+
+export const events = [
+  {
+    id: "international-yoga-day",
+    title: "International Yoga Day",
+    description:
+      "Moments from the college's Yoga Day activities and student participation.",
+
+thumbnail:
+  "/assets/images/events/international-yoga-day/1.JPG",
+
+images: [
+  "/assets/images/events/international-yoga-day/1.JPG",
+  "/assets/images/events/international-yoga-day/2.JPG",
+  "/assets/images/events/international-yoga-day/3.JPG",
+  "/assets/images/events/international-yoga-day/4.JPG",
+  "/assets/images/events/international-yoga-day/5.JPG",
+  "/assets/images/events/international-yoga-day/6.JPG",
+  "/assets/images/events/international-yoga-day/7.JPG",
+  "/assets/images/events/international-yoga-day/8.JPG",
+  "/assets/images/events/international-yoga-day/9.JPG",
+  "/assets/images/events/international-yoga-day/10.JPG",
+  "/assets/images/events/international-yoga-day/11.JPG",
+  "/assets/images/events/international-yoga-day/12.JPG",
+  "/assets/images/events/international-yoga-day/13.JPG",
+  "/assets/images/events/international-yoga-day/14.JPG",
+  "/assets/images/events/international-yoga-day/15.JPG",
+  "/assets/images/events/international-yoga-day/16.JPG",
+  "/assets/images/events/international-yoga-day/17.JPG",
+  "/assets/images/events/international-yoga-day/18.JPG",
+  "/assets/images/events/international-yoga-day/19.JPG",
+],
+  },
+
+  {
+    id: "vruksharopan-programme",
+    title: "Vruksharopan Programme",
+    description:
+      "Photographs from the tree plantation and environmental awareness programme.",
+
+    thumbnail:
+      "/assets/images/events/vruksharopan-programme/01.jpg",
+
+    images: [
+      "/assets/images/events/vruksharopan-programme/01.jpg",
+      "/assets/images/events/vruksharopan-programme/03.jpg",
+      "/assets/images/events/vruksharopan-programme/05.jpg",
+      "/assets/images/events/vruksharopan-programme/07.jpg",
+      "/assets/images/events/vruksharopan-programme/08.jpg",
+      "/assets/images/events/vruksharopan-programme/11.jpg",
+      "/assets/images/events/vruksharopan-programme/12.jpg",
+      "/assets/images/events/vruksharopan-programme/15.jpg",
+      "/assets/images/events/vruksharopan-programme/17.jpg",
+    ],
+  },
+
+  {
+    id: "nutrition-day",
+    title: "Nutrition Day",
+    description:
+      "Highlights from Nutrition Day activities, demonstrations and student participation.",
+
+thumbnail:
+  "/assets/images/events/nutrition day/1.JPG",
+
+images: [
+  "/assets/images/events/nutrition day/1.JPG",
+  "/assets/images/events/nutrition day/2.JPG",
+  "/assets/images/events/nutrition day/3.JPG",
+  "/assets/images/events/nutrition day/4.JPG",
+  "/assets/images/events/nutrition day/5.JPG",
+  "/assets/images/events/nutrition day/6.JPG",
+  "/assets/images/events/nutrition day/7.JPG",
+],
+  },
+
+  {
+    id: "nursing-day",
+    title: "Nursing Day",
+    description:
+      "Highlights from Nursing Day celebrations and activities at Maa Ganga College of Nursing.",
+
+thumbnail:
+  "/assets/images/events/nursing day/1.JPG",
+
+images: [
+  "/assets/images/events/nursing day/1.JPG",
+  "/assets/images/events/nursing day/2.JPG",
+  "/assets/images/events/nursing day/3.JPG",
+  "/assets/images/events/nursing day/4.JPG",
+  "/assets/images/events/nursing day/5.JPG",
+  "/assets/images/events/nursing day/6.JPG",
+  "/assets/images/events/nursing day/7.JPG",
+  "/assets/images/events/nursing day/8.JPG",
+],
+  },
+];
+
+
+

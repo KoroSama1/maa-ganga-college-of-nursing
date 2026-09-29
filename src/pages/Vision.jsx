@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,14 +36,13 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Vision() {
   return (
     <>
       <PageHero
         eyebrow="ABOUT"
         title="Vision, Mission & Philosophy"
-        text="The guiding statements supplied by the institution."
+        text="Our vision, mission, philosophy, aims and objectives."
       />
       <section className="section">
         <div className="container">

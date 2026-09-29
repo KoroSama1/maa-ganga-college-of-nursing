@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,14 +36,13 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Activities() {
   return (
     <>
       <PageHero
         eyebrow="CAMPUS LIFE"
         title="Activities"
-        text="A gallery using the activity photographs supplied by the college."
+        text="Explore academic, cultural and community activities at Maa Ganga College of Nursing."
         image="activity-3.jpg"
       />
       <section className="section">

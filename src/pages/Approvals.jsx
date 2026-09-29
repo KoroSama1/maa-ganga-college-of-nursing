@@ -17,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Upload,
   Users,
   Building2,
   GraduationCap,
@@ -37,14 +36,13 @@ import {
 } from "../data/siteData";
 import PageHero from "../components/PageHero";
 import SectionTitle from "../components/SectionTitle";
-import { useMedia, useFaculty, useNews } from "../components/storage";
 export default function Approvals() {
   return (
     <>
       <PageHero
         eyebrow="DOCUMENTS"
         title="Approvals & Affiliations"
-        text="Official documents supplied by the client, organized by programme."
+        text="View approvals and affiliation documents for the nursing programmes."
       />
       <section className="section">
         <div className="container docGrid">

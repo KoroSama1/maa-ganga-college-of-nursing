@@ -189,12 +189,6 @@ select {
 .navDrop:hover > button {
   background: var(--coral);
 }
-.mainNav .adminLink {
-  margin-left: auto;
-  background: var(--gold);
-  color: var(--navy);
-  border-radius: 0 0 0 12px;
-}
 .navDrop {
   position: relative;
 }
@@ -1523,329 +1517,6 @@ td {
   color: var(--muted);
   font-size: 13px;
 }
-.adminPage {
-  background: #eef1f6;
-  min-height: calc(100vh - 166px);
-  padding: 40px 0;
-}
-.adminShellNew {
-  display: grid;
-  grid-template-columns: 230px 1fr;
-  gap: 18px;
-}
-.adminSidebar {
-  background: var(--navy2);
-  color: white;
-  height: max-content;
-  padding: 17px;
-  position: sticky;
-  top: 20px;
-}
-.adminBrand {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  padding: 7px 5px 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  margin-bottom: 10px;
-}
-.adminCollegeLogo {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-  background: white;
-  border-radius: 50%;
-  display: block;
-}
-.adminBrand strong,
-.adminBrand small {
-  display: block;
-}
-.adminBrand small {
-  font-size: 9px;
-  color: #aab4c9;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  margin-top: 3px;
-}
-.adminSidebar > button,
-.adminSidebar > a {
-  width: 100%;
-  border: 0;
-  background: transparent;
-  color: #cbd3e5;
-  padding: 12px 10px;
-  text-align: left;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  cursor: pointer;
-  font-size: 12px;
-}
-.adminSidebar > button.active,
-.adminSidebar > button:hover {
-  background: var(--coral);
-  color: white;
-}
-.adminSidebar > a {
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  margin-top: 14px;
-  padding-top: 18px;
-}
-.adminContent {
-  background: white;
-  border: 1px solid var(--line);
-  padding: 30px;
-}
-.adminTop {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 20px;
-  margin-bottom: 25px;
-}
-.adminTop h1 {
-  font-family: Georgia, serif;
-  font-size: 38px;
-  margin: 6px 0;
-}
-.adminTop p {
-  color: var(--muted);
-  font-size: 12px;
-  margin: 0;
-}
-.demoBadge {
-  background: #f4eee0;
-  color: #9c6e18;
-  font-size: 9px;
-  font-weight: 900;
-  letter-spacing: 0.15em;
-  padding: 7px 9px;
-}
-.adminUpload {
-  border: 1px dashed #bdc5d5;
-  background: #fafbfc;
-  padding: 24px;
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  gap: 18px;
-  align-items: center;
-}
-.uploadSymbol {
-  width: 50px;
-  height: 50px;
-  background: var(--cream);
-  color: var(--coral);
-  display: grid;
-  place-items: center;
-}
-.adminUpload h3,
-.facultyAddForm h3,
-.newsAddForm h3 {
-  font-family: Georgia, serif;
-  margin: 0 0 4px;
-}
-.adminUpload p {
-  color: var(--muted);
-  font-size: 12px;
-  margin: 0;
-  line-height: 1.6;
-}
-.uploadActions {
-  grid-column: 1/-1;
-  display: flex;
-  gap: 8px;
-}
-.uploadActions input,
-.uploadActions select,
-.facultyAddForm input,
-.newsAddForm input,
-.newsAddForm select,
-.newsAddForm textarea {
-  border: 1px solid var(--line);
-  padding: 11px;
-  outline: 0;
-  background: white;
-  font-size: 12px;
-}
-.uploadActions input {
-  flex: 1;
-}
-.adminCards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-  margin-top: 20px;
-}
-.adminCards article {
-  border: 1px solid var(--line);
-}
-.adminCards img {
-  width: 100%;
-  height: 170px;
-  object-fit: cover;
-}
-.adminCards article > div {
-  padding: 12px;
-}
-.adminCards strong,
-.adminCards small {
-  display: block;
-}
-.adminCards strong {
-  font-size: 12px;
-}
-.adminCards small {
-  color: var(--muted);
-  font-size: 10px;
-  margin: 3px 0 8px;
-}
-.adminCards button,
-.adminFacultyList button,
-.adminNewsList > article > button {
-  border: 0;
-  background: none;
-  color: var(--coral);
-  font-size: 11px;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  cursor: pointer;
-}
-.adminEmpty,
-.adminFuture {
-  text-align: center;
-  padding: 70px 25px;
-  color: var(--muted);
-  background: #fafbfc;
-  margin-top: 20px;
-}
-.facultyAddForm,
-.newsAddForm {
-  border: 1px solid var(--line);
-  padding: 20px;
-  display: grid;
-  gap: 10px;
-}
-.facultyAddForm {
-  grid-template-columns: 1.2fr 1fr 1fr 1fr auto;
-  align-items: end;
-}
-.facultyAddForm p {
-  font-size: 11px;
-  color: var(--muted);
-  margin: 3px 0 0;
-}
-.plusText {
-  font-size: 20px;
-}
-.adminFacultyList {
-  margin-top: 18px;
-  display: grid;
-  gap: 8px;
-}
-.adminFacultyList article {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  border: 1px solid var(--line);
-  padding: 10px;
-}
-.miniFaculty {
-  width: 55px;
-  height: 55px;
-  background: var(--mist);
-  display: grid;
-  place-items: center;
-  color: #8b94a7;
-}
-.miniFaculty img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.adminFacultyList article > div:nth-child(2) {
-  flex: 1;
-}
-.adminFacultyList strong,
-.adminFacultyList span {
-  display: block;
-}
-.adminFacultyList strong {
-  font-family: Georgia, serif;
-}
-.adminFacultyList span {
-  font-size: 11px;
-  color: var(--coral);
-  margin-top: 3px;
-}
-.adminFacultyList article > button {
-  margin-left: auto;
-}
-.newsAddForm {
-  grid-template-columns: 1.5fr 0.7fr;
-}
-.newsAddForm > div,
-.newsAddForm textarea,
-.newsAddForm .btn {
-  grid-column: 1/-1;
-}
-.newsAddForm textarea {
-  resize: vertical;
-}
-.adminNewsList {
-  display: grid;
-  gap: 10px;
-  margin-top: 18px;
-}
-.adminNewsList article {
-  border: 1px solid var(--line);
-  padding: 17px;
-  display: flex;
-  gap: 20px;
-}
-.adminNewsList article > div {
-  flex: 1;
-}
-.adminNewsList article > div > span {
-  font-size: 9px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--coral);
-  font-weight: 800;
-}
-.adminNewsList small {
-  margin-left: 10px;
-  color: #9299a8;
-  font-size: 10px;
-}
-.adminNewsList h3 {
-  font-family: Georgia, serif;
-  margin: 7px 0;
-}
-.adminNewsList p {
-  font-size: 12px;
-  color: var(--muted);
-  line-height: 1.6;
-  margin: 0;
-}
-.architecture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  margin-top: 30px;
-  flex-wrap: wrap;
-}
-.architecture span {
-  background: white;
-  border: 1px solid var(--line);
-  padding: 12px 16px;
-  color: var(--navy);
-  font-weight: 800;
-  font-size: 12px;
-}
 footer {
   background: var(--navy2);
   color: #cbd3e5;
@@ -1938,15 +1609,6 @@ footer {
   }
   .docGrid {
     grid-template-columns: 1fr 1fr;
-  }
-  .adminCards {
-    grid-template-columns: 1fr 1fr;
-  }
-  .facultyAddForm {
-    grid-template-columns: 1fr 1fr;
-  }
-  .facultyAddForm > div {
-    grid-column: 1/-1;
   }
   .footerGrid {
     grid-template-columns: 1fr 1fr;
@@ -2128,28 +1790,6 @@ footer {
   .formGrid textarea {
     grid-column: auto;
   }
-  .adminShellNew {
-    grid-template-columns: 1fr;
-  }
-  .adminSidebar {
-    position: static;
-  }
-  .adminCards {
-    grid-template-columns: 1fr;
-  }
-  .uploadActions {
-    flex-direction: column;
-  }
-  .facultyAddForm,
-  .newsAddForm {
-    grid-template-columns: 1fr;
-  }
-  .facultyAddForm > div,
-  .newsAddForm > div,
-  .newsAddForm textarea,
-  .newsAddForm .btn {
-    grid-column: auto;
-  }
   .footerGrid {
     grid-template-columns: 1fr;
     gap: 35px;
@@ -2164,4 +1804,159 @@ footer {
     right: 14px;
     bottom: 14px;
   }
+}
+
+/* =========================================================
+   EVENTS & GALLERY
+   ========================================================= */
+.eventGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.eventCard {
+  background: #fff;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.eventCardImage {
+  height: 275px;
+  background: var(--mist);
+  position: relative;
+  overflow: hidden;
+}
+.eventCardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.eventImageLabel {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 11px;
+  background: rgba(16, 26, 56, 0.9);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.eventCardBody {
+  padding: 23px;
+}
+.eventMeta {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--coral);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.eventCard h3,
+.galleryToolbar h2 {
+  font-family: Georgia, serif;
+}
+.eventCard h3 {
+  font-size: 27px;
+  margin: 9px 0 8px;
+}
+.eventCard p,
+.galleryToolbar p {
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 0 0 18px;
+}
+.textLink,
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--navy);
+  font-weight: 800;
+  font-size: 13px;
+}
+.textLink:hover,
+.backLink:hover {
+  color: var(--coral);
+}
+.galleryToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 25px;
+  margin-bottom: 28px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+.galleryToolbar h2 {
+  margin: 7px 0 5px;
+  font-size: 34px;
+}
+.backLink {
+  padding: 11px 14px;
+  border: 1px solid var(--line);
+  background: #fff;
+  white-space: nowrap;
+}
+.eventGalleryGrid {
+  columns: 3 280px;
+  column-gap: 16px;
+}
+.eventGalleryGrid figure {
+  break-inside: avoid;
+  margin: 0 0 16px;
+  background: var(--cream);
+  border: 1px solid var(--line);
+}
+.eventGalleryGrid img {
+  display: block;
+  width: 100%;
+  max-height: 560px;
+  object-fit: cover;
+}
+.eventGalleryGrid figcaption {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 12px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+}
+.emptyState {
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px dashed var(--line);
+  background: var(--cream);
+  padding: 40px;
+  color: var(--muted);
+}
+.emptyState h2,
+.emptyState h3 {
+  color: var(--ink);
+  font-family: Georgia, serif;
+  margin: 12px 0 7px;
+}
+.emptyState p { max-width: 600px; line-height: 1.7; }
+.emptyState code {
+  background: #eef1f6;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+@media (max-width: 760px) {
+  .eventGrid { grid-template-columns: 1fr; }
+  .eventCardImage { height: 230px; }
+  .galleryToolbar { align-items: flex-start; flex-direction: column; }
 }
